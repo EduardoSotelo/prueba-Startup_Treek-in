@@ -1,0 +1,84 @@
+@media (max-width: 768px) {
+  .header{
+    width: 100%;
+
+    &__image{
+    width: 100%;
+    height: 470px;
+    background-color: $white;
+    background-image: url("../img/bg-hero.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__div{
+    width: 100%;
+    padding: 5%;
+    font-family: $open;
+
+    h6{
+      padding: 1%;
+      line-height:15px;
+    }
+  }
+  }
+}
+
+@media (max-width: 992px) {
+
+    .header{
+      width: 100%;
+
+      &__image{
+      width: 100%;
+      height: 470px;
+      background-color: $white;
+      background-image: url("../img/bg-hero.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+
+  &__div{
+    width: 55%;
+    padding: 5%;
+    h6{
+      padding: 1%;
+      line-height:30px;
+    }
+
+  }
+
+  }
+}
+
+@media (min-width: 993px) {
+  .header{
+    width: 100%;
+    height: 820px;
+    background-color: $white;
+    background-image: url("../img/bg-hero.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+
+  &__div{
+    width: 35%;
+    padding: 5%;
+
+    h1{
+      font-family: $raleway;
+      font-weight: $bold;
+      font-size: $xxxx-large;
+    }
+
+    p{
+      font-family: $open;
+      padding: 1%;
+      line-height:30px;
+    }
+
+  }
+
+  }
+}
