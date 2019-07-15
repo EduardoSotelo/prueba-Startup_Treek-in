@@ -10,32 +10,33 @@
 </head>
 <body>
   <!--navbar 1-->
-  <nav class="navbar">
-    <nav class="navigation">
-      <div class="navigation__logo">
-      </div>
-      <div class="collapsible col-xs-12">
-        <input type="checkbox" id="menu">
-        <label for="menu"><i class="fas fa-bars"></i></label>
-        <div class="navigation__container">
-          <ul class="navigation__list">
-            <li class="navigation__item"><a href="#">Acerca de</a></li>
-            <li class="navigation__item"><a href="#">Caracteristicas</a></li>
-            <li class="navigation__item"><a href="#">Precios</a></li>
-          </ul>
-        <div class="navigation__buttons">
+  <nav class="navigation">
+    <object data="./assets/img/Logo.svg">
+
+    </object>
+    <div class="collapsible col-xs-12">
+      <input type="checkbox" id="menu">
+      <label for="menu"><i class="fas fa-bars"></i></label>
+      <div class="navigation__container">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#">Acerca de</a></li>
+          <li class="navigation__item"><a href="#">Caracteristicas</a></li>
+          <li class="navigation__item"><a href="#">Precios</a></li>
+        </ul>
+        <ul class="navigation__list">
           <button class="button button--login" type="button" name="button">Iniciar sesión</button>
           <button class="button button--sign-up"  type="button" name="button">Registrate</button>
-        </div>
-        </div>
-      </div>
+        </ul>
 
       </div>
-    </nav>
+
+    </div>
+
+    </div>
   </nav>
 
   <section class="header">
-    <div class="header__div">
+    <div class="header__content">
       <h1>Haz Trekking sin Parar</h1>
       <p>Con Trekk-in te despreocuparás de la estimación de tu viaje, ya que con unos simples pasos podrás definir la mejor ruta a tomar con tus compañeros de expedición.</p>
     </div>
@@ -44,60 +45,67 @@
     </div>
   </section>
 
-  <section class="estadisticas">
-    <div class="estadisticas__container">
-      <h2 class="estadisticas__container__title">Características</h2>
+  <section class="features">
+    <div class="features__container">
+      <h2 class="features__container__title">Características</h2>
       <div class="grid-container">
-      <div class="estadisticas__div">
+      <div class="features__div">
       <img src="assets/img/bar-graph.svg" alt="">
       </div>
-      <div class="estadisticas__div">
-        <h2>Estadísticas de tu progreso</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p><p>sed do eiusmod tempor incididunt ut labore et dolore aliqua.</p>
+      <div class="features__div">
+        <h2 class="features features__title">Estadísticas de tu progreso</h2>
+        <p class="features__paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          <br>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          <br>ut aliquip ex ea commodo consequat.
+        </p>
       </div>
       </div>
     </div>
   </section>
 
-  <section class="precio">
-    <div class="precio__container">
-      <h2 class="precio__container__title">Precios</h2>
-  <div class="grid-container">
-  <div class="card">
-    <div class="card__title">
-      <h3>Trekk-in Free</h3>
-      <h2>$ 0 / mes</h2>
-    </div>
-    <div class="card__ul">
-      <ul>
-        <li>Ver mapas creados por usuarios</li>
-        <li>Conectar con otros usuarios</li>
-        </ul>
-    </div>
-    <div class="card__divbutton">
-    <button  class="card__button" type="button" name="button">Obtén Free</button>
-    </div>
-    </div>
-  <div class="card">
-    <div class="card__title">
-      <h3>Trekk-in Free</h3>
-      <h2>$ 3500 / mes</h2>
-    </div>
-    <div class="card__ul">
-      <ul>
-        <li>Ver mapas creados por usuarios</li>
-        <li>Conectar con otros usuarios</li>
-        <li>Definir mejores rutas</li>
-        <li>Mapas Offline</li>
-        <li>Integración con otras aplicaciones</li>
-      </ul>
-    </div>
-  <div class="card__divbutton">
-    <button class="card__button" type="button" name="button">Obtén Premium</button>
-  </div>
-  </div>
-  </div>
+  <section class="price">
+    <div class="price__container">
+      <h2 class="price__container__title">Precios</h2>
+      <div class="price__color">
 
+        <div class="grid-container">
+          <div class="card">
+            <div class="card__title">
+              <h3>Trekk-in Free</h3>
+              <h2>$ 0 / mes</h2>
+            </div>
+            <div class="card__ul">
+              <ul>
+                <li>Ver mapas creados por usuarios</li>
+                <li>Conectar con otros usuarios</li>
+                </ul>
+            </div>
+            <div class="card__divbutton">
+            <button  class="card__button" type="button" name="button">Obtén Free</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__title">
+              <h3>Trekk-in Free</h3>
+              <h2>$ 3500 / mes</h2>
+            </div>
+            <div class="card__ul">
+              <ul>
+                <li>Ver mapas creados por usuarios</li>
+                <li>Conectar con otros usuarios</li>
+                <li>Definir mejores rutas</li>
+                <li>Mapas Offline</li>
+                <li>Integración con otras aplicaciones</li>
+              </ul>
+            </div>
+            <div class="card__divbutton">
+              <button class="card__button" type="button" name="button">Obtén Premium</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </section>
